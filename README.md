@@ -22,3 +22,7 @@ docker-compose run app sh -c "python manage.py test"
 
 
 Jenkins builds -- video 36
+
+
+docker-compose run app sh -c "python manage.py startapp recipe"
+docker-compose run app sh -c "python manage.py makemigrations"
